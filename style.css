@@ -1,0 +1,138 @@
+body{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(232, 251, 251);
+}
+
+span{
+    text-decoration: underline;
+}
+
+p{
+    line-height: 2rem;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    height: 8rem;
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h3{
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, a{
+    color: #11999E;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+    margin: 100px auto;
+}
+
+hr{
+    border: 5px dotted gray;
+    border-bottom: none;
+    opacity: 30%;
+    margin: 5% auto;
+    width: 2%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 15%;
+    top: 50px;
+    opacity: 50%;
+}
+
+.bottom-cloud{
+    opacity: 50%;
+    position: absolute;
+    left: 15%;
+    bottom: 300px;
+}
+
+.profile-pic{
+    width: 200px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.skills-pic-1{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.skills-pic-2{
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.skills-pic-1, .skills-pic-2{
+    filter: drop-shadow(2px 2px 5px gray);
+}
+
+button{
+    background-image: linear-gradient(to bottom, #34dba1, #29b987);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+button:hover{
+    background-image: linear-gradient(to bottom, #00af72, #00733b);
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    width: 100%;
+    height: 10rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    text-decoration: wavy;
+    color: white;
+}
+
+.copyrights{
+    color: white;
+    font-size: 10px;
+    padding: 20px 0;
+}
